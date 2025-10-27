@@ -19,9 +19,14 @@ if(inscription=="yes"){
          var didline=prompt("did you respict didline");
          if(didline=="yes"){
            alert("Congratulation your doing weel");
-           var cer=prompt("did you pass all the quiz and project in platform Gomycode");
-           if(cer=="yes"){
-              alert("CONGATULATION YOUR FINSH SERTIFICATE")
+           var cer1=prompt("did you pass all the quiz and project patie 1 in platform Gomycode");
+           if(cer1=="yes"){
+              alert("CONGATULATION YOUR FINSH SERTIFICATE number 1")
+              var cer2=prompt("did you pass all the quiz and project patie 1 in platform Gomycode");
+              if(cer2=="yes"){
+                alert("CONGATULATION YOUR FINSH SERTIFICATE number 1");
+                alert("CONGRATULATION YOUR HAVE CERTIFICAT WITH GMYCODE");
+              }else{alert("we are sorry your not doin your project")}
            }else{alert("we are sorry your not doin your project")}
 
          }else{alert("we are sorry your not respict didline")}
