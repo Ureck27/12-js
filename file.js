@@ -1,7 +1,7 @@
 var inscription=prompt("did rejested in jadara :");
 if(inscription=="yes"){
      alert("your selected to next step");
-     var test=prompt("did you valide the test :");
+     var test=prompt("did you valide the test oral:");
      if(test=="yes"){
       alert("congrat your valid the test oral");
       var engagement=prompt("did you any business:");
@@ -20,8 +20,8 @@ if(inscription=="yes"){
          if(didline=="yes"){
            alert("Congratulation your doing weel");
 
-         }else{alert("00")}
-       }else{alert("00")}
-      }else{alert("00")}
-     }else{alert("00")}
-}else{ alert("00")}
+         }else{alert("we are sorry your not respict didline")}
+       }else{alert("we are sorry your not is low than 60")}
+      }else{alert("we are sorry your not been accepted for the next step ")}
+     }else{alert("we are sorry youre not valide test oral")}
+}else{ alert("we are sorry youre not rested in platform")}
