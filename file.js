@@ -13,14 +13,14 @@ if(inscription=="yes"){
        if(note>=60){
         alert("congratuation your been accepted to periode DC");
         var absence=prompt("did you have any absence in periode DC");
-        if(absence=="non")
+        if(absence=="non"){
          alert("Cogratulation your doing Greath Job");
          alert("be carfull with black hole do you project && respect your deadline");
          var didline=prompt("did you respict didline");
          if(didline=="yes"){
            alert("Congratulation your doing weel");
-
          }else{alert("we are sorry your not respict didline")}
+         }else{alert("we are sorry your not been acceptable for your abcens ")}
        }else{alert("we are sorry your not is low than 60")}
       }else{alert("we are sorry your not been accepted for the next step ")}
      }else{alert("we are sorry youre not valide test oral")}
