@@ -19,6 +19,11 @@ if(inscription=="yes"){
          var didline=prompt("did you respict didline");
          if(didline=="yes"){
            alert("Congratulation your doing weel");
+           var cer=prompt("did you pass all the quiz and project in platform Gomycode");
+           if(cer=="yes"){
+              alert("CONGATULATION YOUR FINSH SERTIFICATE")
+           }else{alert("we are sorry your not doin your project")}
+
          }else{alert("we are sorry your not respict didline")}
          }else{alert("we are sorry your not been acceptable for your abcens ")}
        }else{alert("we are sorry your not is low than 60")}
